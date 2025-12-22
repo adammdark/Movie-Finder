@@ -19,7 +19,9 @@ Search movies, explore trending titles, and view detailed information with a cle
 - **Flowbite** – Prebuilt Tailwind components
 - **TMDB API** – Movie data source
 - **Vite** – Development & build tool
+- **Vercel** - To deploy and see the live demo
 
+***Note**: If you are in India then please use VPN, because TMDB's API was ban or not working in India*
 
 ## 🔑 Environment Variables
 
@@ -28,7 +30,6 @@ Create a .env file in the root directory and add:
 ```
 VITE_ENVIRONMENT_VAR = your_tmdb_api_key_here
 ```
-
 
 
 ## 📦 Installation & Setup
@@ -57,3 +58,5 @@ npm run dev
 ## 🚀 Live Demo
 
 👉 To see the live demo click [here](https://movie-finder-two-neon.vercel.app)
+
+***Note**: If the live link is not working, please use vpn*

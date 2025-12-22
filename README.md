@@ -59,4 +59,4 @@ npm run dev
 
 👉 To see the live demo click [here](https://movie-finder-two-neon.vercel.app)
 
-***Note**: If the live link is not working, please use vpn*
+***Note**: If the live link is not working or loading for long time, please use vpn*

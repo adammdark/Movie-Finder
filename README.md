@@ -26,7 +26,7 @@ Search movies, explore trending titles, and view detailed information with a cle
 This project uses the TMDB API.
 Create a .env file in the root directory and add:
 ```
-**VITE_ENVIRONMENT_VAR** = your_tmdb_api_key_here
+VITE_ENVIRONMENT_VAR = your_tmdb_api_key_here
 ```
 
 

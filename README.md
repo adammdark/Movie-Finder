@@ -1,16 +1,62 @@
-# React + Vite
+# 🎬 Movie Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern movie discovery web app built with **React**, **Tailwind CSS**, and **Flowbite**, powered by **TMDB API**.  
+Search movies, explore trending titles, and view detailed information with a clean, responsive UI.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 Search movies by title
+- 🎞️ Browse trending and popular movies
+- 📄 View detailed movie information (overview, rating, release date, etc.)
+- 📱 Fully responsive design
+- ⚡ Fast and smooth UI with Flowbite components
+- 🌙 Darkmode for low light 
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** – Frontend library
+- **Tailwind CSS** – Utility-first styling
+- **Flowbite** – Prebuilt Tailwind components
+- **TMDB API** – Movie data source
+- **Vite** – Development & build tool
+- **Vercel** - To deploy and see the live demo
 
-## Expanding the ESLint configuration
+***Note**: If you are in India then please use VPN, because TMDB's API was ban or not working in India*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔑 Environment Variables
+
+This project uses the TMDB API.
+Create a .env file in the root directory and add:
+```
+VITE_ENVIRONMENT_VAR = your_tmdb_api_key_here
+```
+
+
+## 📦 Installation & Setup
+
+### 1️⃣ Clone the repository:
+
+```
+git clone https://github.com/your-username/movie-finder.git
+
+cd movie-finder
+
+```
+
+### 2️⃣ Install dependencies:
+
+```
+npm install
+```
+
+### 3️⃣ Start the development server:
+
+```
+npm run dev
+```
+
+## 🚀 Live Demo
+
+👉 To see the live demo click [here](https://movie-finder-two-neon.vercel.app)
+
+***Note**: If the live link is not working or loading for long time, please use vpn*

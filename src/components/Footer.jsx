@@ -5,9 +5,9 @@ const Footer = () => {
 
     <footer className="bg-blue-950 shadow-sm dark:bg-gray-900 mb-0">
       <div className="w-full mx-auto max-w-7xl p-4 md:flex md:items-center md:justify-between text-center">
-        <span className="text-sm sm:text-center text-white">© 2025 <Link to="/" className="hover:underline">CiniBite</Link>. <span>All Rights Reserved.</span>
+        <span className="text-sm sm:text-center text-white">© 2026 <Link to="/" className="hover:underline">CiniBite</Link>. <span>All Rights Reserved.</span>
         </span>
-        <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 text-white sm:mt-0 justify-center">
+        <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0 justify-center">
           <li>
             <a href="#" className="hover:underline me-4 md:me-6">Youtube</a>
           </li>
